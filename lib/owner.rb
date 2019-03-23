@@ -68,8 +68,8 @@ class Owner
       pets.each do |pet|
         pet.mood = "nervous"
       end 
+      #pets.clear
     end 
-    #binding.pry 
     @pets = new_hash 
   end 
   
